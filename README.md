@@ -1,2 +1,2 @@
 # lsyncd-conf
-Lsyncd のカスタムパターン集
+Lsyncd で s3への転送を行う
