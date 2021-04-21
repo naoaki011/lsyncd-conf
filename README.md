@@ -1,2 +1,2 @@
 # lsyncd-conf
-Lsyncd で s3への転送を行う
+Lsyncd で LFTPの転送を行う
