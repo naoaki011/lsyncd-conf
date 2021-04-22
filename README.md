@@ -30,11 +30,11 @@ yum の epel リポジトリを有効にする
 
     ```sudo amazon-linux-extras install -y epel```
 
-- CentOS 7 では、ベースリポジトリに epel-release パッケージが含まれています。
+- CentOS 7 では、ベースリポジトリに epel-release パッケージが含まれている。
 
     ```sudo yum install -y epel-release```
 
-- CentOS 8 では、RHEL 8 用の EPEL リリースパッケージをインストールします。EPEL リポジトリと PowerTools リポジトリの両方を有効にします。PowerTools リポジトリには、多くの EPEL パッケージに必要な開発ツールが含まれています。
+- CentOS 8 では、RHEL 8 用の EPEL リリースパッケージをインストールする。EPEL リポジトリと PowerTools リポジトリの両方を有効にする。PowerTools リポジトリには、多くの EPEL パッケージに必要な開発ツールが含まれてる。
 
     ```sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm```
     
