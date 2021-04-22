@@ -56,3 +56,15 @@ lsyncd をインストールする
 ## lsyncd を起動する
 上記で問題なく動作するようならば、登録済みのサービスを起動する
 また、サービスの自動起動を有効にする
+
+    sudo systemctl enable lsyncd
+    sudo systemctl start lsyncd
+
+## ubuntu の場合
+ubuntu での lsyncd インストール
+
+    sudo apt install lsyncd
+
+自動起動する設定ファイルは `/etc/lsyncd/lsyncd.conf.lua` になる
+
+
