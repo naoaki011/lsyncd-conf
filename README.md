@@ -20,21 +20,21 @@ yum の epel リポジトリを有効にする
 
 - RHEL8ではcodeready-builderリポジトリを有効にする必要がある
 
-    sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-    sudo dnf config-manager --set-enabled codeready-builder-for-rhel-8-rhui-rpms
+    ```sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+    sudo dnf config-manager --set-enabled codeready-builder-for-rhel-8-rhui-rpms```
 
 - AWSのAmazon Linux 2ではEPELを有効にする専用のコマンドがある
 
-    sudo amazon-linux-extras install -y epel
+    ```sudo amazon-linux-extras install -y epel```
 
 - CentOS 7 では、ベースリポジトリに epel-release パッケージが含まれています。
 
-    sudo yum install -y epel-release
+    ```sudo yum install -y epel-release```
 
 - CentOS 8 では、RHEL 8 用の EPEL リリースパッケージをインストールします。EPEL リポジトリと PowerTools リポジトリの両方を有効にします。PowerTools リポジトリには、多くの EPEL パッケージに必要な開発ツールが含まれています。
 
-    sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-    sudo dnf config-manager --set-enabled PowerTools
+    ```sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+    sudo dnf config-manager --set-enabled PowerTools```
 
 lsyncd をインストールする
 
