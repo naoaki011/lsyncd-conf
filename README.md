@@ -16,7 +16,7 @@
 yum の epel リポジトリを有効にする
 - RHEL7
 
-    sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    ```sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm```
 
 - RHEL8ではcodeready-builderリポジトリを有効にする必要がある
 
